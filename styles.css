@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+
+#form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    border: 1px solid #ccc;
+}
+
+header, h1{
+    background-color: blue;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#my-table{
+    margin: auto;
+    border-collapse: collapse;
+   
+}
+
+form{
+      max-width: 600px;
+      padding: 30px;
+      border: 1px solid;
+      border-radius: 4px;
+      background-color: white;
+      
+}
+
+form label {
+    display: block;
+    margin:15px 0 5px ;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border-radius:5px ;
+    border: 1px solid #ccc;
+}
+
+button{
+  width: 100%;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+
+#my-table th,td{
+    padding: 20px;
+}
+
+#edit-button, #delete-button, #cancel-button,#add-button{
+    padding: 10px 25px;
+    border: 1px solid;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+#add-button{
+    text-decoration: none;
+    background-color: blue;
+}
+
+#cancel-button{
+    text-decoration: none;
+    background-color: grey;
+}
+#edit-button{
+    background-color: blue;
+}
+#delete-button{
+    background-color: red;
+}
+
+
+
+a {
+    text-decoration: none;
+}
